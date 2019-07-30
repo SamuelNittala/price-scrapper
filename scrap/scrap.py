@@ -19,11 +19,5 @@ def get_price(url):
 
     return float_price
 
-url_box = []
-
-add_url(url_box,'logitech g302')
-add_url(url_box,'logitech g502')
-for u in url_box:
-    print(get_price(u))
 
 
