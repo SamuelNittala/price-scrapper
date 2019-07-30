@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-from url import add_url
 from header import headers
 
 def get_price(url):
@@ -12,12 +11,13 @@ def get_price(url):
     except:
         price = soup.find(id='priceblock_dealprice').get_text()
 
-    comma = price.find(',') 
+    '''comma = price.find(',') 
     dot = price.find('.')
 
-    float_price = (float) (price[2:comma] + price[comma+1:])
+    float_price = (float) (price[2:comma] + price[comma+1:])'''
 
-    return float_price
+    return price
+
 
 
 
