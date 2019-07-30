@@ -10,6 +10,7 @@ def get_price(url):
         price = soup.find(id='priceblock_ourprice').get_text()
     except:
         price = soup.find(id='priceblock_dealprice').get_text()
+      
 
     '''comma = price.find(',') 
     dot = price.find('.')
