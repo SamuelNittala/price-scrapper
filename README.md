@@ -1,2 +1,2 @@
 # price-scrapper
-A scrapper built for sending notifications when prices of different products change on amazon
+A telegram-bot built for checking prices of different products change on amazon
