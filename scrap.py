@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from url import url_arr
+from url import add_url
 from header import headers
 
 def get_price(url):
@@ -19,7 +19,11 @@ def get_price(url):
 
     return float_price
 
-for url in url_arr:
-    print(get_price(url))
+url_box = []
+
+add_url(url_box,'logitech g302')
+add_url(url_box,'logitech g502')
+for u in url_box:
+    print(get_price(u))
 
 
