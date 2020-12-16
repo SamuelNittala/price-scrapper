@@ -1,5 +1,5 @@
 # price-scraper
-A telegram-bot built for checking changing prices of different products change on amazon
+A telegram-bot built for checking changing prices of different products on amazon
 # usage
 /show your-product-name => shows the products that match with id
   
